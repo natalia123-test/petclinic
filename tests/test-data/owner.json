@@ -1,0 +1,58 @@
+{
+  "firstName": "George",
+  "lastName": "Franklin",
+  "address": "110 W. Liberty St.",
+  "city": "Madison",
+  "telephone": "6085551023",
+  "id": 3763,
+  "pets": [
+    {
+      "name": "Leo",
+      "birthDate": "2000-09-07",
+      "type": {
+        "name": "cat",
+        "id": 4083
+      },
+      "id": 6408,
+      "ownerId": 3763,
+      "visits": [
+        {
+          "date": "2027-04-13",
+          "description": "Disease55",
+          "id": 7814,
+          "petId": null
+        },
+        {
+          "date": "2027-01-21",
+          "description": "Disease",
+          "id": 7813,
+          "petId": null
+        },
+        {
+          "date": "2026-12-29",
+          "description": "Disease",
+          "id": 7816,
+          "petId": null
+        },
+        {
+          "date": "2026-11-05",
+          "description": "Disease 1",
+          "id": 7800,
+          "petId": null
+        },
+        {
+          "date": "2026-11-05",
+          "description": "Disease",
+          "id": 7802,
+          "petId": null
+        },
+        {
+          "date": "2026-11-05",
+          "description": "Disease",
+          "id": 7806,
+          "petId": null
+        }
+      ]
+    }
+  ]
+}

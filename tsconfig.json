@@ -1,0 +1,8 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "types": ["node"],
+        "resolveJsonModule": true
+    },
+     "include": ["**/*.ts", ".auth/**/*.ts"]
+}

@@ -1,0 +1,23 @@
+{
+  "name": "playwright-homework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-chromium": "playwright test --project=chromium",
+    "test-firefox": "playwright test --project=firefox",
+    "test-api": "playwright test tests/api-tests.spec.ts --project=firefox",
+    "test-chromium-ui": "playwright test tests/owners.spec.ts tests/pet-types.spec.ts tests/veterinarians.spec.ts --project=chromium --workers=1",
+    "test-firefox-ui": "playwright test tests/owners.spec.ts tests/pet-types.spec.ts tests/veterinarians.spec.ts --project=firefox --workers=1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
+    "@playwright/test": "^1.62.0",
+    "@types/node": "^26.1.2",
+    "dotenv": "^17.4.2",
+    "typescript": "^7.0.2"
+  }
+}
